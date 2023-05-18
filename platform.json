@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/platformio/platform-espressif32.git"
   },
-  "version": "6.1.0",
+  "version": "6.2.0",
   "frameworks": {
     "arduino": {
       "package": "framework-arduinoespressif32",
@@ -26,10 +26,7 @@
     },
     "espidf": {
       "package": "framework-espidf",
-      "script": "builder/frameworks/espidf.py",
-      "description": "ESP-IDF is the official development framework for the ESP32 and ESP32-S Series SoCs.",
-      "homepage": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/",
-      "title": "Espressif IoT Development Framework"
+      "script": "builder/frameworks/espidf.py"
     }
   },
   "packages": {
@@ -70,7 +67,7 @@
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~3.20007.0"
+      "version": "~3.20009.0"
     },
     "framework-arduino-mbcwb": {
       "type": "framework",
@@ -82,7 +79,7 @@
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~3.50001.0",
+      "version": "~3.50002.0",
       "optionalVersions": ["~3.40404.0"]
     },
     "tool-esptoolpy": {
@@ -99,7 +96,7 @@
       "type": "debugger",
       "optional": true,
       "owner": "platformio",
-      "version": "~2.1200.0"
+      "version": "~2.1100.0"
     },
     "tool-mkspiffs": {
       "type": "uploader",
